@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../../resources/logo.png';
+import { ReactComponent as Logo } from '../../resources/logo-blue.svg';
 import HeaderLinks from '../header-links/header-links.component';
 import HeaderContainer from './header.styles';
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <img alt="logo" src={logo} />
+      <Logo height="100%" width="10%" />
       <HeaderLinks />
     </HeaderContainer>
   );

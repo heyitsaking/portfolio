@@ -8,7 +8,7 @@ const HeaderLinks = () => {
     <HeaderLinksContainer>
       <NavigationLink text="home" />
       <NavigationLink text="about" />
-      <NavigationLink text="portfolio" />
+      <NavigationLink text="projects" />
       <NavigationLink text="contact" />
     </HeaderLinksContainer>
   );

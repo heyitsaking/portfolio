@@ -6,7 +6,7 @@ const NavigationLinkComponent = styled(Link)`
   font-size: 20px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  color: black;
+  color: inherit;
 
   &:hover {
     transform: scale(1.1);

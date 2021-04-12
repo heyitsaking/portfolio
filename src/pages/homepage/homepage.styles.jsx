@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 
-const slideIn = keyframes`
+const slideInLeft = keyframes`
     from {
       margin-left: 0%;
       width: 300%;
@@ -14,7 +14,22 @@ const slideIn = keyframes`
     }
 `;
 
+const slideInBottom = keyframes`
+    from {
+      margin-top: 30%;
+      width: 100%;
+      opacity: 0;
+    }
+
+    to {
+      margin-bottom: 0%;
+      width: 100%;
+      opacity: 100%;
+    }
+`;
+
 export const HomePageContainer = styled.div`
+  animation: ${slideInBottom} 1s;
   background-image: url(${(props) => props.bg});
   background-size: cover;
   position: fixed;
@@ -25,7 +40,8 @@ export const HomePageContainer = styled.div`
 `;
 
 export const AnimatedTextContainer = styled.div`
-  animation: ${slideIn} 3s ${(props) => (props.title ? '1s' : '')};
+  animation: ${slideInLeft} 3s
+    ${(props) => (props.title ? '1.5s' : '1s')};
   animation-fill-mode: forwards;
   padding-top: ${(props) => (props.name ? '200px' : '')};
   opacity: 0;
