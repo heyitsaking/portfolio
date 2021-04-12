@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c8af86c0.chunk.css",
-    "main.js": "/portfolio/static/js/main.1e70d683.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1e70d683.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.5ba3d378.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5ba3d378.js.map",
-    "static/js/2.0a93f3e6.chunk.js": "/portfolio/static/js/2.0a93f3e6.chunk.js",
-    "static/js/2.0a93f3e6.chunk.js.map": "/portfolio/static/js/2.0a93f3e6.chunk.js.map",
-    "static/js/3.15b39d11.chunk.js": "/portfolio/static/js/3.15b39d11.chunk.js",
-    "static/js/3.15b39d11.chunk.js.map": "/portfolio/static/js/3.15b39d11.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.c8af86c0.chunk.css.map": "/portfolio/static/css/main.c8af86c0.chunk.css.map",
-    "static/js/2.0a93f3e6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0a93f3e6.chunk.js.LICENSE.txt",
-    "static/media/logo-blue.733df5a5.svg": "/portfolio/static/media/logo-blue.733df5a5.svg",
-    "static/media/wave.a269686d.svg": "/portfolio/static/media/wave.a269686d.svg"
+    "main.css": "/static/css/main.c8af86c0.chunk.css",
+    "main.js": "/static/js/main.1e70d683.chunk.js",
+    "main.js.map": "/static/js/main.1e70d683.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.833398b2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.833398b2.js.map",
+    "static/js/2.4a3f1ec5.chunk.js": "/static/js/2.4a3f1ec5.chunk.js",
+    "static/js/2.4a3f1ec5.chunk.js.map": "/static/js/2.4a3f1ec5.chunk.js.map",
+    "static/js/3.15b39d11.chunk.js": "/static/js/3.15b39d11.chunk.js",
+    "static/js/3.15b39d11.chunk.js.map": "/static/js/3.15b39d11.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c8af86c0.chunk.css.map": "/static/css/main.c8af86c0.chunk.css.map",
+    "static/js/2.4a3f1ec5.chunk.js.LICENSE.txt": "/static/js/2.4a3f1ec5.chunk.js.LICENSE.txt",
+    "static/media/logo-blue.733df5a5.svg": "/static/media/logo-blue.733df5a5.svg",
+    "static/media/wave.a269686d.svg": "/static/media/wave.a269686d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ba3d378.js",
-    "static/js/2.0a93f3e6.chunk.js",
+    "static/js/runtime-main.833398b2.js",
+    "static/js/2.4a3f1ec5.chunk.js",
     "static/css/main.c8af86c0.chunk.css",
     "static/js/main.1e70d683.chunk.js"
   ]
