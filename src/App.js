@@ -10,7 +10,7 @@ import ContactPage from './pages/contact/contact.component';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
