@@ -6,7 +6,7 @@ import HeaderContainer from './header.styles';
 const Header = () => {
   return (
     <HeaderContainer>
-      <Logo height="100%" width="10%" />
+      {/* <Logo height="100%" width="10%" /> */}
       <HeaderLinks />
     </HeaderContainer>
   );

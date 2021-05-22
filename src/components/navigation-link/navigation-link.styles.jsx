@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const NavigationLinkComponent = styled(Link)`
   display: block;
-  font-size: 20px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   color: inherit;
@@ -11,6 +10,7 @@ const NavigationLinkComponent = styled(Link)`
   &:hover {
     transform: scale(1.1);
     font-weight: bold;
+    border-bottom: solid #f9c80e;
   }
 `;
 

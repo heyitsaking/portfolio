@@ -1,13 +1,22 @@
 import styled from 'styled-components';
 
 const HeaderContainer = styled.div`
-  background-color: rgba(83, 162, 190, 0.8);
+  background-color: #05080f;
+  font-size: 20px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
-  box-shadow: 0 1px 10px #e7e7ec;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+  }
 `;
 
 export default HeaderContainer;

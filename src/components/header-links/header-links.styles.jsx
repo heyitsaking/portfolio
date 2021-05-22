@@ -5,7 +5,12 @@ const HeaderLinksContainer = styled.span`
   justify-content: flex-end;
   width: 100%;
   justify-content: space-around;
-  color: #0f3e57;
+  color: #fff;
+  font-weight: 200;
+
+  @media screen and (max-width: 800px) {
+    padding: 0 5px;
+  }
 `;
 
 export default HeaderLinksContainer;

@@ -1,49 +1,31 @@
 import styled, { keyframes } from 'styled-components';
 
-const slideInLeft = keyframes`
-    from {
-      margin-left: 0%;
-      width: 300%;
-      opacity: 0;
-    }
-
-    to {
-      margin-left: 10%;
-      width: 100%;
-      opacity: 100%;
-    }
+const typing = keyframes`
+  from { width: 0 }
+  to { width: 70% }
 `;
 
-const slideInBottom = keyframes`
-    from {
-      margin-top: 30%;
-      width: 100%;
-      opacity: 0;
-    }
-
-    to {
-      margin-bottom: 0%;
-      width: 100%;
-      opacity: 100%;
-    }
+const cursor = keyframes`
+  from, to { border-color: transparent }
+  50% { border-color: #F9C80E; }
 `;
 
 export const HomePageContainer = styled.div`
-  animation: ${slideInBottom} 1s;
-  background-image: url(${(props) => props.bg});
-  background-size: cover;
-  position: fixed;
-  width: 100%;
-  height: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  padding-left: 10%;
+  height: 100%;
 `;
 
-export const AnimatedTextContainer = styled.div`
-  animation: ${slideInLeft} 3s
-    ${(props) => (props.title ? '1.5s' : '1s')};
-  animation-fill-mode: forwards;
-  padding-top: ${(props) => (props.name ? '200px' : '')};
-  opacity: 0;
-  font-size: ${(props) => (props.title ? '70px' : '100px')};
+export const AnimationContainer = styled.div`
+  display: flex;
+  flex-flow: column;
+  margin-right: auto;
+  border-right: 0.15em solid #f19a3e;
+  animation: ${typing} 4s steps(29, end) 1s 1 normal both,
+    ${cursor} 600ms steps(29, end) infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.1em;
 `;

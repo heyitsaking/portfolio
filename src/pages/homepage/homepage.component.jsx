@@ -1,19 +1,16 @@
 import React from 'react';
 import {
   HomePageContainer,
-  AnimatedTextContainer,
+  AnimationContainer,
 } from './homepage.styles';
-import waves from '../../resources/wave.svg';
 
 const HomePage = () => {
   return (
-    <HomePageContainer bg={waves}>
-      <AnimatedTextContainer name>
-        Arturo A. King
-      </AnimatedTextContainer>
-      <AnimatedTextContainer title>
-        Web Developer
-      </AnimatedTextContainer>
+    <HomePageContainer>
+      <AnimationContainer>
+        <div style={{ fontSize: '150px' }}>Arturo A. King</div>
+        <div style={{ fontSize: '100px' }}>Web Developer</div>
+      </AnimationContainer>
     </HomePageContainer>
   );
 };
