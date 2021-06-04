@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
-const HeaderLinksContainer = styled.span`
+export const HeaderLinksContainer = styled.span`
   display: flex;
-  justify-content: flex-end;
   width: 100%;
   justify-content: space-around;
   color: #fff;
@@ -10,7 +9,16 @@ const HeaderLinksContainer = styled.span`
 
   @media screen and (max-width: 800px) {
     padding: 0 5px;
+    justify-content: flex-end;
   }
 `;
 
-export default HeaderLinksContainer;
+export const HamburgerMenuContainer = styled.div`
+  display: none;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    height: 100%;
+    width: auto;
+  }
+`;

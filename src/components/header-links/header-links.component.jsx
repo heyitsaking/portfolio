@@ -1,7 +1,11 @@
 import React from 'react';
 
 import NavigationLink from '../navigation-link/nagivation-link.component';
-import HeaderLinksContainer from './header-links.styles';
+import {
+  HeaderLinksContainer,
+  HamburgerMenuContainer,
+} from './header-links.styles';
+import { ReactComponent as MenuIcon } from './menu-icon.svg';
 
 const HeaderLinks = () => {
   return (
@@ -10,6 +14,9 @@ const HeaderLinks = () => {
       <NavigationLink text="about" />
       <NavigationLink text="projects" />
       <NavigationLink text="contact" />
+      <HamburgerMenuContainer>
+        <MenuIcon />
+      </HamburgerMenuContainer>
     </HeaderLinksContainer>
   );
 };

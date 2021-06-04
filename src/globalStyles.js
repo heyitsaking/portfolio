@@ -4,7 +4,7 @@ const GlobalStyle = createGlobalStyle`
     body {
         height: 100vh;
         width: 100%;
-        background-color: #05080F;
+        background-color: #1D2D50;
         color: white;
         margin: 0;
         font-family: 'DM Sans', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

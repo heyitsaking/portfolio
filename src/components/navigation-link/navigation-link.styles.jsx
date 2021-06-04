@@ -12,6 +12,10 @@ const NavigationLinkComponent = styled(Link)`
     font-weight: bold;
     border-bottom: solid #f9c80e;
   }
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `;
 
 export default NavigationLinkComponent;
